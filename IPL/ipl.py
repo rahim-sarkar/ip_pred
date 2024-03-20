@@ -1,13 +1,14 @@
 import streamlit as st
 import pickle
 import pandas as pd
-model = pickle.load(open("model.pkl","rb"))
+model = pickle.load(open("IPL/model.pkl","rb"))
 teams = ['Sunrisers Hyderabad',
     'Mumbai Indians',
     'Royal Challengers Bangalore',
     'Kolkata Knight Riders',
     'Kings XI Punjab',
     'Chennai Super Kings',
+    'Kings XI Punjab',
     'Rajasthan Royals',
     'Delhi Capitals']
 st.header("rm Creation")
